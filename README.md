@@ -1,2 +1,1 @@
-# terraform_cource
-# terraform_cource
+# terraform_course
