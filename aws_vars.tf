@@ -18,12 +18,32 @@ variable "subnet_1_cidr" {
 
 variable "subnet_2_cidr" {
   type = string
-  description = "Subnet 1 CIDR"
+  description = "Subnet 2 CIDR"
   default = "10.0.20.0/24"
 }
+variable "subnet_3_cidr" {
+  type = string
+  description = "Subnet 3 CIDR"
+  default = "10.0.30.0/24"
+}
 
+variable "availability_zone_1a" {
+  type = string
+  description = "Availability US east 1a"
+  default = "us-east-1a"
+}
 
+variable "availability_zone_1b" {
+  type = string
+  description = "Availability US east 1b"
+  default = "us-east-1b"
+}
 
+variable "availability_zone_1c" {
+  type = string
+  description = "Availability US east 1c"
+  default = "us-east-1c"
+}
 
 variable "ami_id" {
   type        = string
