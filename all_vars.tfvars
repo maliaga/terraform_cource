@@ -1,0 +1,10 @@
+region        = "us-east-1"
+vpc_cidr      = "10.0.0.0/16"
+subnet_1_cidr = "10.0.10.0/24"
+subnet_2_cidr = "10.0.20.0/24"
+subnet_3_cidr = "10.0.30.0/24"
+availability_zone_1a = "us-east-1a"
+availability_zone_1b = "us-east-1b"
+availability_zone_1c = "us-east-1c"
+ami_id = "ami-0b0af3577fe5e3532"
+
